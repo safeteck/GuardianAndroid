@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+        <!--    VOSK-->
+        <string name="title_models">Models Module</string>
+        <string name="mic_permission_missing">RECORD_AUDIO permission not granted</string>
+        <string name="notification_title">Vosk Service</string>
+        <string name="notification_text">Listening for keywords...</string>
+        <string name="preparing">preparing</string>
+        <string name="model_load_error">model_load_error</string>
+        <string name="microphone_permission_denied">microphone_permission_denied</string>
+        <string name="ready">ready</string>
+        <string name="starting">starting</string>
+        <string name="say_something">say_something</string>
+        <string name="model_not_ready">model_not_ready</string>
+        <string name="stop_microphone">stop_microphone</string>
+        <string name="recognize_microphone">recognize_microphone</string>
+        <string name="stop_file">stop_file</string>
+        <string name="recognize_file">recognize_file</string>
+
+
+        <!--    DANGER STATE FEATURES-->
+        <!-- Actions & Buttons -->
+        <string name="action_add_all">افزودن همه</string>
+        <string name="action_back">بازگشت</string>
+        <string name="action_clear_all">پاک کردن همه</string>
+        <string name="action_close">بستن</string>
+        <string name="action_done">انجام شد</string>
+        <string name="action_select">انتخاب</string>
+        <string name="action_send_alert">ارسال هشدار</string>
+        <string name="action_subtitle_capture_audio">ضبط فایل‌های صوتی</string>
+        <string name="action_subtitle_capture_photo">گرفتن عکس</string>
+        <string name="action_subtitle_capture_video">ضبط ویدیو</string>
+        <string name="action_subtitle_periodic_location">شروع یا توقف به‌روزرسانی‌های دوره‌ای موقعیت مکانی</string>
+        <string name="action_subtitle_send_sms">ارسال پیامک سفارشی به مخاطبین اضطراری شما</string>
+        <string name="action_subtitle_share_location">اشتراک‌گذاری موقعیت مکانی زنده شما با مخاطبینتان</string>
+        <string name="action_subtitle_trigger_alerts">فعال کردن هشدارها بر اساس سناریوهای از پیش تعریف شده</string>
+        <string name="action_title_capture_audio">ضبط صدا</string>
+        <string name="action_title_capture_photo">گرفتن عکس</string>
+        <string name="action_title_capture_video">ضبط ویدیو</string>
+        <string name="action_title_periodic_location">به‌روزرسانی‌های دوره‌ای موقعیت مکانی</string>
+        <string name="action_title_send_sms">ارسال پیامک سفارشی</string>
+        <string name="action_title_share_location">اشتراک‌گذاری موقعیت مکانی زنده</string>
+        <string name="action_title_trigger_alerts">فعال کردن هشدارهای سناریو</string>
+        <string name="add_contact_dialog_title">افزودن مخاطب جدید</string>
+        <string name="add_geofence_content_description">افزودن محدوده جغرافیایی</string>
+        <string name="add_new">افزودن جدید</string>
+
+        <!-- Alerts -->
+        <string name="alert_car_trip_desc">هنگام شروع سفر با خودرو به طور خودکار فعال می‌شود.</string>
+        <string name="alert_car_trip_title">شروع سفر با خودرو</string>
+        <string name="alert_earthquake_desc">هشدار برای فعالیت لرزه‌ای در منطقه شما.</string>
+        <string name="alert_earthquake_title">هشدار زلزله</string>
+        <string name="alert_fall_detection_desc">سقوط ناگهانی را تشخیص داده و هشدار ارسال می‌کند.</string>
+        <string name="alert_fall_detection_title">تشخیص سقوط</string>
+        <string name="alert_flood_desc">هشدار برای خطرات احتمالی سیل در منطقه شما.</string>
+        <string name="alert_flood_title">هشدار سیل</string>
+        <string name="alert_low_battery_desc">هنگام کم بودن شارژ باتری دستگاهتان هشدار می‌دهد.</string>
+        <string name="alert_low_battery_title">هشدار باتری کم</string>
+        <string name="alert_sim_network_loss_desc">در صورت خارج شدن سیم‌کارت یا قطع شدن شبکه هشدار می‌دهد.</string>
+        <string name="alert_sim_network_loss_title">از دست دادن سیم‌کارت/شبکه</string>
+
+        <!-- General & App -->
+        <string name="avatar_cd">آواتار %1$s</string>
+        <string name="back">بازگشت</string>
+        <string name="back_button_cd">بازگشت</string>
+        <string name="back_button_description">بازگشت</string>
+
+        <!-- Background Service -->
+        <string name="background_service_description">هنگامی که برنامه بسته است، نظارت فعال را حفظ می‌کند.</string>
+        <string name="background_service_icon_description">سرویس پس‌زمینه</string>
+        <string name="background_service_title">سرویس پس‌زمینه</string>
+
+        <!-- Battery -->
+        <string name="battery_usage_high">مصرف باتری زیاد</string>
+        <string name="battery_usage_low">مصرف باتری کم</string>
+        <string name="battery_usage_medium">مصرف باتری متوسط</string>
+
+        <!-- Buttons -->
+        <string name="btn_start_capture">شروع ضبط</string>
+        <string name="btn_stop_capture">توقف ضبط</string>
+        <string name="button_add">افزودن</string>
+        <string name="button_cancel">لغو</string>
+        <string name="button_close">بستن</string>
+        <string name="button_delete">حذف</string>
+        <plurals name="button_import_n_contacts">
+            <item quantity="one">%1$d مخاطب را وارد کنید</item>
+            <item quantity="other">%1$d مخاطب را وارد کنید</item>
+        </plurals>
+        <string name="button_set_password">تنظیم رمز عبور</string>
+        <string name="button_unlock_with_biometrics">باز کردن قفل با بیومتریک</string>
+        <string name="button_unlock_with_password">باز کردن قفل با رمز عبور</string>
+
+        <!-- Capture Screen -->
+        <string name="camera_front">دوربین جلو</string>
+        <string name="camera_rear">دوربین عقب</string>
+        <string name="capture_started_message">ضبط %1$s شما آغاز شد.\nبرنامه را نبندید.</string>
+        <string name="capture_type_manual">دستی</string>
+        <string name="capture_type_scheduled">زمانبندی شده</string>
+
+        <!-- Categories & Filters -->
+        <string name="category_emergency">اضطراری</string>
+        <string name="category_friends">دوستان</string>
+        <string name="category_general">عمومی</string>
+        <string name="category_private">خصوصی</string>
+        <string name="filter_all">همه</string>
+
+        <!-- Content Descriptions (for Accessibility) -->
+        <string name="cd_add_contact">افزودن مخاطب</string>
+        <string name="cd_import_contacts">وارد کردن مخاطبین</string>
+        <string name="cd_more_options_for_contact">گزینه‌های بیشتر برای %1$s</string>
+        <string name="cd_search_icon">آیکون جستجو</string>
+        <string name="clear_all_cd">پاک کردن همه</string>
+        <string name="clear_all_messages">پاک کردن همه پیام‌ها</string>
+        <string name="content_desc_add_all_icon">افزودن تمامی مخاطبین از پیش تعریف شده</string>
+        <string name="content_desc_add_number">افزودن شماره</string>
+        <string name="content_desc_back">بازگشت</string>
+        <string name="content_desc_battery_state">وضعیت باتری</string>
+        <string name="content_desc_capturing_icon">در حال ضبط</string>
+        <string name="content_desc_clear_all_icon">پاک کردن تمام مخاطبین انتخاب شده</string>
+        <string name="content_desc_collapse">جمع کردن</string>
+        <string name="content_desc_expand">باز کردن</string>
+        <string name="content_desc_remove">حذف</string>
+
+        <!-- Contacts Screen -->
+        <string name="contacts_list_empty">مخاطبی یافت نشد.</string>
+        <string name="contacts_screen_title">مخاطبین</string>
+
+        <!-- Date -->
+        <string name="date_today">امروز</string>
+        <string name="date_yesterday">دیروز</string>
+
+        <!-- Details & Enums -->
+        <string name="detail_feature_call">تماس</string>
+        <string name="detail_feature_sms">پیامک</string>
+        <string name="detail_permission_dial_call">برقراری تماس</string>
+        <string name="detail_permission_fine_location">دسترسی دقیق به موقعیت مکانی</string>
+        <string name="detail_permission_microphone">دسترسی به میکروفون</string>
+        <string name="detail_permission_no_special">مجوز خاصی لازم نیست</string>
+        <string name="detail_permission_phone_state">دسترسی به وضعیت تلفن</string>
+        <string name="detail_permission_send_sms">ارسال پیامک</string>
+        <string name="detail_permission_sensors">ژیروسکوپ و شتاب‌سنج</string>
+        <string name="detail_sensor_accelerometer">شتاب‌سنج</string>
+        <string name="detail_sensor_battery">باتری</string>
+        <string name="detail_sensor_gps">موقعیت مکانی (GPS)</string>
+        <string name="detail_sensor_gyroscope">ژیروسکوپ</string>
+        <string name="details_header_required_permissions">مجوزهای مورد نیاز</string>
+        <string name="details_header_used_features">ویژگی‌های مورد استفاده</string>
+        <string name="details_header_used_sensors">حسگرهای مورد استفاده</string>
+        <string name="dialog_options_title">تنظیمات برای «%1$s»</string>
+
+        <!-- Duration Options -->
+        <string name="duration_10s">10 ثانیه</string>
+        <string name="duration_1m">1 دقیقه</string>
+        <string name="duration_30s">30 ثانیه</string>
+        <string name="duration_5m">5 دقیقه</string>
+        <string name="duration_eight_hours">8 ساعت</string>
+        <string name="duration_one_hour">1 ساعت</string>
+        <string name="duration_until_i_stop">تا زمانی که من متوقف کنم</string>
+
+        <!-- Emergency Hub & Events -->
+        <string name="emergency_event_button_text">شروع رویداد اضطراری</string>
+        <string name="emergency_hub_title">مرکز اضطراری</string>
+        <string name="emergency_sms_alert_sent_toast">هشدار به %1$d گیرنده ارسال شد!</string>
+        <string name="emergency_sms_default_message">کمک! این یک وضعیت اضطراری است. به کمک فوری نیاز دارم.</string>
+        <string name="emergency_sms_error_no_recipients">لطفاً حداقل یک گیرنده را انتخاب یا اضافه کنید.</string>
+        <string name="emergency_sms_error_send_failed">ارسال پیامک ناموفق بود. لطفاً مجوزهای برنامه را بررسی کنید.</string>
+        <string name="emergency_sms_location_appended_message">\n\nموقعیت مکانی فعلی من به زودی ارسال خواهد شد.</string>
+        <string name="emergency_sms_manual_contact_label">به: افزودن مخاطب به صورت دستی</string>
+        <string name="emergency_sms_manual_contact_placeholder">مثال: 555-123-4567</string>
+        <string name="emergency_sms_no_predefined_contacts">مخاطب از پیش تعریف شده‌ای یافت نشد.</string>
+        <string name="emergency_sms_permissions_updated_toast">وضعیت مجوزها به روز شد.</string>
+        <string name="emergency_sms_predefined_contacts_title">مخاطبین اضطراری</string>
+        <string name="emergency_sms_screen_title">هشدار اضطراری</string>
+        <string name="emergency_sms_total_recipients_label">تعداد کل گیرندگان:</string>
+        <string name="emergency_sos_button">SOS اضطراری</string>
+
+        <!-- Errors -->
+        <string name="error_decryption_failed">رمزگشایی ناموفق بود. لطفاً بازنشانی کنید.</string>
+        <string name="error_incorrect_password">رمز عبور اشتباه است</string>
+        <string name="error_name_cannot_be_empty">نام نمی‌تواند خالی باشد</string>
+        <string name="error_no_password_set">رمز عبوری تنظیم نشده است.</string>
+        <string name="error_unknown_viewmodel">کلاس ViewModel ناشناخته</string>
+
+        <!-- Flash Options -->
+        <string name="flash_auto">خودکار</string>
+        <string name="flash_off">خاموش</string>
+        <string name="flash_on">روشن</string>
+
+        <!-- Frequency Options -->
+        <string name="frequency_daily">روزانه</string>
+        <string name="frequency_hourly">ساعتی</string>
+        <string name="frequency_once">یکبار</string>
+
+        <!-- Geofencing -->
+        <string name="geofencing_title">محدوده جغرافیایی</string>
+
+        <!-- Headers & Sections -->
+        <string name="header_scenario_alerts">هشدارهای مبتنی بر سناریو</string>
+        <string name="home">خانه</string>
+
+        <!-- Import Contacts -->
+        <string name="import_contacts_dialog_title">وارد کردن از تلفن</string>
+        <string name="import_dialog_no_contacts_found">مخاطبی با شماره تلفن در دستگاه شما یافت نشد.</string>
+
+        <!-- Labels -->
+        <string name="label_confirm_password">تأیید رمز عبور</string>
+        <string name="label_enter_password">رمز عبور را وارد کنید</string>
+        <string name="load_from_disk">بارگذاری از دیسک</string>
+
+        <!-- Location -->
+        <string name="location_history_title">تاریخچه موقعیت مکانی</string>
+        <string name="location_safety_title">موقعیت مکانی و ایمنی</string>
+        <string name="location_sharing_off">اشتراک‌گذاری موقعیت مکانی: خاموش</string>
+        <string name="location_sharing_on">اشتراک‌گذاری موقعیت مکانی: روشن</string>
+        <string name="location_sharing_title">اشتراک‌گذاری موقعیت مکانی</string>
+
+        <!-- Media Types -->
+        <string name="media_type_audio">صدا</string>
+        <string name="media_type_picture">عکس</string>
+        <string name="media_type_video">ویدیو</string>
+
+        <!-- Menu -->
+        <string name="menu_content_description">منو</string>
+        <string name="menu_item_add_to_emergency">افزودن به اضطراری</string>
+        <string name="menu_item_remove_from_emergency">حذف از اضطراری</string>
+        <string name="messages_title">پیام‌ها</string>
+
+        <!-- Messages & UI Text -->
+        <string name="no_messages">هیچ پیامی نیست.</string>
+        <string name="option_dial_call">برقراری تماس</string>
+        <string name="option_record_audio">ضبط صدا</string>
+        <string name="option_send_location">ارسال موقعیت مکانی</string>
+        <string name="option_send_message">ارسال پیام</string>
+        <string name="option_use_sensors">استفاده از ژیروسکوپ و شتاب‌سنج</string>
+
+        <!-- Password Screen -->
+        <string name="password_setup_guideline">رمز عبور باید حداقل 6 کاراکتر باشد.</string>
+        <string name="password_setup_title">ایجاد رمز عبور</string>
+
+        <!-- Permissions -->
+        <string name="permission_action_grant">اعطا</string>
+        <string name="permission_camera_description">برای ارسال عکس یا ویدیو در حالت SOS مورد نیاز است</string>
+        <string name="permission_camera_title">دوربین</string>
+        <string name="permission_contact_description">برای افزودن مخاطبین اضطراری مورد نیاز است</string>
+        <string name="permission_contact_title">مخاطب</string>
+        <string name="permission_location_description">برای محدوده جغرافیایی و هشدارها مورد نیاز است</string>
+        <string name="permission_location_title">موقعیت مکانی</string>
+        <string name="permission_microphone_description">برای ضبط صدا هنگام تشخیص حالت SOS مورد نیاز است</string>
+        <string name="permission_microphone_title">میکروفون</string>
+        <string name="permission_notifications_description">برای نمایش وضعیت و هشدارها مورد نیاز است</string>
+        <string name="permission_notifications_title">اعلان‌ها</string>
+        <string name="permission_phone_calls_description">برای تماس‌های SOS اضطراری مورد نیاز است</string>
+        <string name="permission_phone_calls_title">تماس‌های تلفنی</string>
+        <string name="permission_physical_activity_description">برای تشخیص سقوط مورد نیاز است</string>
+        <string name="permission_physical_activity_title">فعالیت فیزیکی</string>
+        <string name="permission_sms_description">برای ارسال هشدارهای اضطراری مورد نیاز است</string>
+        <string name="permission_sms_title">پیامک</string>
+        <string name="permission_status_granted">اعطا شد</string>
+        <string name="permission_storage_description">برای ذخیره ایمن داده‌ها مورد نیاز است</string>
+        <string name="permission_storage_title">فضای ذخیره‌سازی</string>
+        <string name="permissions_status_updated">وضعیت مجوزها به روز شد.</string>
+
+        <!-- Resolution Options -->
+        <string name="resolution_high">بالا</string>
+        <string name="resolution_low">پایین</string>
+        <string name="resolution_medium">متوسط</string>
+
+        <!-- School, Work -->
+        <string name="school">مدرسه</string>
+
+        <!-- Search -->
+        <string name="search_bar_placeholder">جستجوی مخاطبین</string>
+
+        <!-- Sections -->
+        <string name="section_camera_settings">تنظیمات دوربین</string>
+        <string name="section_capture_type">نوع ضبط</string>
+        <string name="section_header_emergency_events">رویدادهای اضطراری</string>
+        <string name="section_header_quick_actions">اقدامات سریع</string>
+        <string name="section_header_scenario_alerts">هشدارهای سناریو</string>
+        <string name="section_scheduling_params">پارامترهای زمانبندی</string>
+        <string name="section_title_app_permissions">مجوزهای برنامه</string>
+        <string name="section_title_core_functionality">عملکرد اصلی</string>
+        <string name="section_title_device_sensors">وضعیت حسگرهای دستگاه</string>
+        <string name="section_title_sms_config">پیکربندی پیامک</string>
+
+        <!-- Sending Status -->
+        <string name="sending_last_known_location">در حال ارسال آخرین موقعیت مکانی شناخته شده...</string>
+        <string name="sending_live_location_for_5_mins">در حال ارسال موقعیت مکانی زنده برای 5 دقیقه...</string>
+        <string name="send_last_known_location">ارسال آخرین موقعیت مکانی شناخته شده</string>
+
+        <!-- Sensors -->
+        <string name="sensor_accelerometer_name">شتاب‌سنج</string>
+        <string name="sensor_gps_name">GPS</string>
+        <string name="sensor_gyroscope_name">ژیروسکوپ</string>
+        <string name="sensor_status_active">فعال</string>
+        <string name="sensor_status_unavailable">در دسترس نیست</string>
+        <string name="sensors_card_info_text">«فعال» به معنای پشتیبانی دستگاه شما از این ویژگی است</string>
+
+        <!-- Settings -->
+        <string name="setting_camera">دوربین</string>
+        <string name="setting_duration">مدت زمان</string>
+        <string name="setting_flash">فلاش</string>
+        <string name="setting_frequency">فرکانس</string>
+        <string name="setting_resolution">رزولوشن</string>
+        <string name="setting_start_time">زمان شروع</string>
+        <string name="settings_title">تنظیمات</string>
+
+        <!-- Sharing -->
+        <string name="share_live_location">اشتراک‌گذاری موقعیت مکانی زنده</string>
+        <string name="sim_card_default_title">سیم‌کارت پیش‌فرض</string>
+        <string name="sim_card_default_value">سیم‌کارت 1</string>
+        <string name="sim_card_icon_description">سیم‌کارت</string>
+
+        <!-- Snackbar -->
+        <string name="snackbar_contacts_already_exist_or_empty">مخاطبین انتخاب شده از قبل در لیست شما وجود دارند یا انتخابی صورت نگرفته است.</string>
+        <plurals name="snackbar_new_contacts_imported">
+            <item quantity="one">%1$d مخاطب جدید وارد شد.</item>
+            <item quantity="other">%1$d مخاطب جدید وارد شد.</item>
+        </plurals>
+        <string name="snackbar_permission_denied">مجوز رد شد. نمی‌توان مخاطبین را وارد کرد.</string>
+
+        <!-- SOS -->
+        <string name="sos_content_description">دکمه SOS</string>
+        <string name="stop_sharing">توقف اشتراک‌گذاری</string>
+
+        <!-- Text Fields -->
+        <string name="text_now">اکنون</string>
+        <string name="textfield_label_category">دسته</string>
+        <string name="textfield_label_name">نام</string>
+        <string name="textfield_label_phone_number">شماره تلفن</string>
+
+        <!-- Titles -->
+        <string name="title_activity_2">فعالیت 2</string>
+        <string name="title_activity_compose_new">ComposeNewActivity</string>
+        <string name="title_activity_main01">MainActivity01</string>
+        <string name="title_activity_main2">MainActivity2</string>
+        <string name="title_activity_navigation">NavigationActivity</string>
+        <string name="title_activity_new">NewActivity</string>
+        <string name="title_capture_in_progress">ضبط در حال انجام</string>
+        <string name="title_capture_media">ضبط رسانه</string>
+        <string name="title_capture_summary">خلاصه ضبط</string>
+
+        <!-- Toasts -->
+        <string name="toast_audio_failed">ضبط صدا ناموفق/لغو شد.</string>
+        <string name="toast_audio_recorded">صدای ضبط شده: %1$s</string>
+        <string name="toast_audio_stopped">متوقف شد. در %1$s ذخیره شد</string>
+        <string name="toast_audio_stop_error">چیزی برای توقف وجود ندارد یا خطا رخ داده است.</string>
+        <string name="toast_background_monitoring_started">نظارت پس‌زمینه آغاز شد.</string>
+        <string name="toast_background_monitoring_stopped">نظارت پس‌زمینه متوقف شد.</string>
+        <string name="toast_car_trip_activated">سناریوی سفر با خودرو فعال شد</string>
+        <string name="toast_car_trip_deactivated">سناریوی سفر با خودرو غیرفعال شد</string>
+        <string name="toast_fall_detection_activated">سناریوی تشخیص سقوط فعال شد</string>
+        <string name="toast_fall_detection_deactivated">سناریوی تشخیص سقوط غیرفعال شد</string>
+        <string name="toast_front_photo_failed">عکس جلوی دوربین ناموفق بود.</string>
+        <string name="toast_front_photo_saved">عکس جلوی دوربین ذخیره شد: %1$s</string>
+        <string name="toast_front_video_failed">ویدیوی جلوی دوربین ناموفق بود.</string>
+        <string name="toast_front_video_saved">ویدیوی جلوی دوربین ذخیره شد: %1$s</string>
+        <string name="toast_not_implemented">هنوز پیاده‌سازی نشده است.</string>
+        <string name="toast_permission_already_granted">مجوزهای %1$s قبلاً اعطا شده‌اند</string>
+        <string name="toast_permissions_updated">وضعیت مجوزها به روز شد.</string>
+        <string name="toast_rear_photo_failed">عکس پشت دوربین ناموفق بود.</string>
+        <string name="toast_rear_photo_saved">عکس پشت دوربین ذخیره شد: %1$s</string>
+        <string name="toast_rear_video_failed">ویدیوی پشت دوربین ناموفق بود.</string>
+        <string name="toast_rear_video_saved">ویدیوی پشت دوربین ذخیره شد: %1$s</string>
+        <string name="toast_recording_front_video">در حال ضبط ویدیوی جلوی دوربین…</string>
+        <string name="toast_recording_front_video_with_duration">در حال ضبط ویدیوی جلوی دوربین برای %1$d ثانیه…</string>
+        <string name="toast_recording_rear_video">در حال ضبط ویدیوی پشت دوربین…</string>
+        <string name="toast_recording_rear_video_with_duration">در حال ضبط ویدیوی پشت دوربین برای %1$d ثانیه…</string>
+        <string name="toast_taking_front_photo">در حال گرفتن عکس از جلوی دوربین…</string>
+        <string name="toast_taking_rear_photo">در حال گرفتن عکس از پشت دوربین…</string>
+
+        <!-- Turn On/Off -->
+        <string name="turn_off_receiver">خاموش کردن گیرنده</string>
+        <string name="turn_on_message_receiver">روشن کردن گیرنده پیام</string>
+
+        <!-- Unlock Screen -->
+        <string name="unlock_screen_title">باز کردن قفل</string>
+
+        <!-- View Timeline -->
+        <string name="view_timeline">مشاهده جدول زمانی</string>
+        <string name="view_timeline_content_description">مشاهده جدول زمانی تاریخچه موقعیت مکانی</string>
+
+        <!-- Work -->
+        <string name="work">کار</string>
+        <string name="content_description_clear_all_icon">توضیحات محتوای پاک کردن همه آیکون</string>
+        <string name="content_description_add_all_icon">توضیحات محتوای افزودن همه آیکون</string>
+        <string name="content_description_back">توضیحات محتوای بازگشت</string>
+        <string name="content_description_add_number">توضیحات محتوای افزودن شماره</string>
+        <string name="content_description_remove">توضیحات محتوای حذف</string>
+        <string name="content_description_collapse">توضیحات محتوای جمع کردن</string>
+        <string name="content_description_expand">توضیحات محتوای باز کردن</string>
+        <string name="screen_title_alerts_monitoring">نظارت بر هشدارها</string>
+        <string name="setting_media_type">نوع رسانه تنظیمات</string>
+        <string name="setting_capture_type">نوع ضبط تنظیمات</string>
+        <string name="notifications_content_description_icon">notification icon content description</string>
+        <string name="null_contacts_toast_message">contacts number are zero = 0, please add a contact</string>
+        <string name="contacts_info_text_content">پیام ها و هشدار ها فقط به مخاطبین اظطراری ارسال خواهد شد</string>
+
+</resources>

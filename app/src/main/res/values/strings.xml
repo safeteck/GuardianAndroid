@@ -1,0 +1,404 @@
+<resources>
+    <string name="app_name">Guardian</string>
+    <string name="title_activity_vosk">VoskActivity</string>
+
+    <!--    VOSK-->
+    <string name="title_models">Models Module</string>
+    <string name="mic_permission_missing">RECORD_AUDIO permission not granted</string>
+    <string name="notification_title">Vosk Service</string>
+    <string name="notification_text">Listening for keywords...</string>
+    <string name="preparing">preparing</string>
+    <string name="model_load_error">model_load_error</string>
+    <string name="microphone_permission_denied">microphone_permission_denied</string>
+    <string name="ready">ready</string>
+    <string name="starting">starting</string>
+    <string name="say_something">say_something</string>
+    <string name="model_not_ready">model_not_ready</string>
+    <string name="stop_microphone">stop_microphone</string>
+    <string name="recognize_microphone">recognize_microphone</string>
+    <string name="stop_file">stop_file</string>
+    <string name="recognize_file">recognize_file</string>
+
+    <!--    DANGER SATE FEATURES-->
+    <!-- Actions & Buttons -->
+    <string name="action_add_all">Add All</string>
+    <string name="action_back">Back</string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_close">Close</string>
+    <string name="action_done">Done</string>
+    <string name="action_select">Select</string>
+    <string name="action_send_alert">Send Alert</string>
+    <string name="action_subtitle_capture_audio">Capture audio recordings</string>
+    <string name="action_subtitle_capture_photo">Capture photos</string>
+    <string name="action_subtitle_capture_video">Capture video recordings</string>
+    <string name="action_subtitle_periodic_location">Start or stop periodic location updates</string>
+    <string name="action_subtitle_send_sms">Send a custom SMS to your emergency contacts</string>
+    <string name="action_subtitle_share_location">Share your live location with your contacts</string>
+    <string name="action_subtitle_trigger_alerts">Trigger alerts based on predefined scenarios</string>
+    <string name="action_title_capture_audio">Capture Audio</string>
+    <string name="action_title_capture_photo">Capture Photo</string>
+    <string name="action_title_capture_video">Capture Video</string>
+    <string name="action_title_periodic_location">Periodic Location Updates</string>
+    <string name="action_title_send_sms">Send Custom SMS</string>
+    <string name="action_title_share_location">Share Live Location</string>
+    <string name="action_title_trigger_alerts">Trigger Scenario Alerts</string>
+    <string name="add_contact_dialog_title">Add New Contact</string>
+    <string name="add_geofence_content_description">Add geofence</string>
+    <string name="add_new">Add New</string>
+
+    <!-- Alerts -->
+    <string name="alert_car_trip_desc">Activates automatically when a car trip starts.</string>
+    <string name="alert_car_trip_title">Car Trip Start</string>
+    <string name="alert_earthquake_desc">Alerts for seismic activity in your area.</string>
+    <string name="alert_earthquake_title">Earthquake Alert</string>
+    <string name="alert_fall_detection_desc">Detects a sudden fall and sends an alert.</string>
+    <string name="alert_fall_detection_title">Fall Detection</string>
+    <string name="alert_flood_desc">Alerts for potential flood risks in your area.</string>
+    <string name="alert_flood_title">Flood Alert</string>
+    <string name="alert_low_battery_desc">Alerts when your device\'s battery is low.</string>
+    <string name="alert_low_battery_title">Low Battery Alert</string>
+    <string name="alert_sim_network_loss_desc">Alerts if the SIM card is removed or the network is disconnected.</string>
+    <string name="alert_sim_network_loss_title">SIM/Network Loss</string>
+
+    <!-- General & App -->
+    <string name="avatar_cd">%1$s avatar</string>
+    <string name="back">Back</string>
+    <string name="back_button_cd">Back</string>
+    <string name="back_button_description">Back</string>
+
+    <!-- Background Service -->
+    <string name="background_service_description">Keeps monitoring active when app is closed.</string>
+    <string name="background_service_icon_description">Background Service</string>
+    <string name="background_service_title">Background Service</string>
+
+    <!-- Battery -->
+    <string name="battery_usage_high">High Battery Usage</string>
+    <string name="battery_usage_low">Low Battery Usage</string>
+    <string name="battery_usage_medium">Medium Battery Usage</string>
+
+    <!-- Buttons -->
+    <string name="btn_start_capture">Start Capture</string>
+    <string name="btn_stop_capture">Stop Capture</string>
+    <string name="button_add">Add</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_close">Close</string>
+    <string name="button_delete">Delete</string>
+    <plurals name="button_import_n_contacts">
+        <item quantity="one">Import %1$d contact</item>
+        <item quantity="other">Import %1$d contacts</item>
+    </plurals>
+    <string name="button_set_password">Set Password</string>
+    <string name="button_unlock_with_biometrics">Unlock with Biometrics</string>
+    <string name="button_unlock_with_password">Unlock with Password</string>
+
+    <!-- Capture Screen -->
+    <string name="camera_front">Front</string>
+    <string name="camera_rear">Rear</string>
+    <string name="capture_started_message">Your %1$s capture has started.\nDo not close the application.</string>
+    <string name="capture_type_manual">Manual</string>
+    <string name="capture_type_scheduled">Scheduled</string>
+
+    <!-- Categories & Filters -->
+    <string name="category_emergency">Emergency</string>
+    <string name="category_friends">Friends</string>
+    <string name="category_general">General</string>
+    <string name="category_private">Private</string>
+    <string name="filter_all">All</string>
+
+    <!-- Content Descriptions (for Accessibility) -->
+    <string name="cd_add_contact">Add contact</string>
+    <string name="cd_import_contacts">Import contacts</string>
+    <string name="cd_more_options_for_contact">More options for %1$s</string>
+    <string name="cd_search_icon">Search icon</string>
+    <string name="clear_all_cd">Clear All</string>
+    <string name="clear_all_messages">Clear All Messages</string>
+    <string name="content_desc_add_all_icon">Add all predefined contacts</string>
+    <string name="content_desc_add_number">Add number</string>
+    <string name="content_desc_back">Back</string>
+    <string name="content_desc_battery_state">Battery Status</string>
+    <string name="content_desc_capturing_icon">Capturing</string>
+    <string name="content_desc_clear_all_icon">Clear all selected contacts</string>
+    <string name="content_desc_collapse">Collapse</string>
+    <string name="content_desc_expand">Expand</string>
+    <string name="content_desc_remove">Remove</string>
+
+    <!-- Contacts Screen -->
+    <string name="contacts_list_empty">No contacts found.</string>
+    <string name="contacts_screen_title">Contacts</string>
+
+    <!-- Date -->
+    <string name="date_today">Today</string>
+    <string name="date_yesterday">Yesterday</string>
+
+    <!-- Details & Enums -->
+    <string name="detail_feature_call">Call</string>
+    <string name="detail_feature_sms">SMS</string>
+    <string name="detail_permission_dial_call">Make Calls</string>
+    <string name="detail_permission_fine_location">Fine Location Access</string>
+    <string name="detail_permission_microphone">Microphone Access</string>
+    <string name="detail_permission_no_special">No special permission required</string>
+    <string name="detail_permission_phone_state">Phone State Access</string>
+    <string name="detail_permission_send_sms">Send SMS</string>
+    <string name="detail_permission_sensors">Gyroscope and Accelerometer</string>
+    <string name="detail_sensor_accelerometer">Accelerometer</string>
+    <string name="detail_sensor_battery">Battery</string>
+    <string name="detail_sensor_gps">Location (GPS)</string>
+    <string name="detail_sensor_gyroscope">Gyroscope</string>
+    <string name="details_header_required_permissions">Required Permissions</string>
+    <string name="details_header_used_features">Used Features</string>
+    <string name="details_header_used_sensors">Used Sensors</string>
+    <string name="dialog_options_title">Settings for \"%1$s\"</string>
+
+    <!-- Duration Options -->
+    <string name="duration_10s">10s</string>
+    <string name="duration_1m">1m</string>
+    <string name="duration_30s">30s</string>
+    <string name="duration_5m">5m</string>
+    <string name="duration_eight_hours">8 hours</string>
+    <string name="duration_one_hour">1 hour</string>
+    <string name="duration_until_i_stop">Until I stop</string>
+
+    <!-- Emergency Hub & Events -->
+    <string name="emergency_event_button_text">Initiate Emergency Event</string>
+    <string name="emergency_hub_title">Emergency Hub</string>
+    <string name="emergency_sms_alert_sent_toast">Alert sent to %1$d recipients!</string>
+    <string name="emergency_sms_default_message">Help! This is an emergency. I need immediate assistance.</string>
+    <string name="emergency_sms_error_no_recipients">Please select or add at least one recipient.</string>
+    <string name="emergency_sms_error_send_failed">SMS failed to send. Please check app permissions.</string>
+    <string name="emergency_sms_location_appended_message">\n\nMy current location will be sent shortly.</string>
+    <string name="emergency_sms_manual_contact_label">To: Add contact manually</string>
+    <string name="emergency_sms_manual_contact_placeholder">Example: 555-123-4567</string>
+    <string name="emergency_sms_no_predefined_contacts">No predefined contacts found.</string>
+    <string name="emergency_sms_permissions_updated_toast">Permissions status updated.</string>
+    <string name="emergency_sms_predefined_contacts_title">Emergency Contacts</string>
+    <string name="emergency_sms_screen_title">Emergency Alert</string>
+    <string name="emergency_sms_total_recipients_label">Total Recipients:</string>
+    <string name="emergency_sos_button">Emergency SOS</string>
+
+    <!-- Errors -->
+    <string name="error_decryption_failed">Decryption failed. Please reset.</string>
+    <string name="error_incorrect_password">Incorrect password</string>
+    <string name="error_name_cannot_be_empty">Name cannot be empty</string>
+    <string name="error_no_password_set">No password set.</string>
+    <string name="error_unknown_viewmodel">Unknown ViewModel class</string>
+
+    <!-- Flash Options -->
+    <string name="flash_auto">Auto</string>
+    <string name="flash_off">Off</string>
+    <string name="flash_on">On</string>
+
+    <!-- Frequency Options -->
+    <string name="frequency_daily">Daily</string>
+    <string name="frequency_hourly">Hourly</string>
+    <string name="frequency_once">Once</string>
+
+    <!-- Geofencing -->
+    <string name="geofencing_title">Geofencing</string>
+
+    <!-- Headers & Sections -->
+    <string name="header_scenario_alerts">Scenario-Based Alerts</string>
+    <string name="home">Home</string>
+
+    <!-- Import Contacts -->
+    <string name="import_contacts_dialog_title">Import from Phone</string>
+    <string name="import_dialog_no_contacts_found">No contacts with phone numbers found on your device.</string>
+
+    <!-- Labels -->
+    <string name="label_confirm_password">Confirm Password</string>
+    <string name="label_enter_password">Enter Password</string>
+    <string name="load_from_disk">Load from disk</string>
+
+    <!-- Location -->
+    <string name="location_history_title">Location History</string>
+    <string name="location_safety_title">Location &amp; Safety</string>
+    <string name="location_sharing_off">Location Sharing: Off</string>
+    <string name="location_sharing_on">Location Sharing: On</string>
+    <string name="location_sharing_title">Location Sharing</string>
+
+    <!-- Media Types -->
+    <string name="media_type_audio">Audio</string>
+    <string name="media_type_picture">Picture</string>
+    <string name="media_type_video">Video</string>
+
+    <!-- Menu -->
+    <string name="menu_content_description">Menu</string>
+    <string name="menu_item_add_to_emergency">Add to emergency</string>
+    <string name="menu_item_remove_from_emergency">Remove from emergency</string>
+    <string name="messages_title">Messages</string>
+
+    <!-- Messages & UI Text -->
+    <string name="no_messages">No messages.</string>
+    <string name="option_dial_call">Make Call</string>
+    <string name="option_record_audio">Record Audio</string>
+    <string name="option_send_location">Send Location</string>
+    <string name="option_send_message">Send Message</string>
+    <string name="option_use_sensors">Use Gyroscope and Accelerometer</string>
+
+    <!-- Password Screen -->
+    <string name="password_setup_guideline">Password must be at least 6 characters.</string>
+    <string name="password_setup_title">Create a Password</string>
+
+    <!-- Permissions -->
+    <string name="permission_action_grant">Grant</string>
+    <string name="permission_camera_description">Required for sending Picture or Video in the SOS State</string>
+    <string name="permission_camera_title">Camera</string>
+    <string name="permission_contact_description">Required for adding emergency contacts</string>
+    <string name="permission_contact_title">Contact</string>
+    <string name="permission_location_description">Required for geofencing and alerts</string>
+    <string name="permission_location_title">Location</string>
+    <string name="permission_microphone_description">Required for Recording voice when SOS state detected</string>
+    <string name="permission_microphone_title">Microphone</string>
+    <string name="permission_notifications_description">Required to show status and alerts</string>
+    <string name="permission_notifications_title">Notifications</string>
+    <string name="permission_phone_calls_description">Required for emergency SOS calls</string>
+    <string name="permission_phone_calls_title">Phone Calls</string>
+    <string name="permission_physical_activity_description">Required for fall detection</string>
+    <string name="permission_physical_activity_title">Physical Activity</string>
+    <string name="permission_sms_description">Required to send emergency alerts</string>
+    <string name="permission_sms_title">SMS</string>
+    <string name="permission_status_granted">Granted</string>
+    <string name="permission_storage_description">Required to save data safely</string>
+    <string name="permission_storage_title">Storage</string>
+    <string name="permissions_status_updated">Permissions status updated.</string>
+
+    <!-- Resolution Options -->
+    <string name="resolution_high">High</string>
+    <string name="resolution_low">Low</string>
+    <string name="resolution_medium">Medium</string>
+
+    <!-- School, Work -->
+    <string name="school">School</string>
+
+    <!-- Search -->
+    <string name="search_bar_placeholder">Search contacts</string>
+
+    <!-- Sections -->
+    <string name="section_camera_settings">Camera Settings</string>
+    <string name="section_capture_type">Capture Type</string>
+    <string name="section_header_emergency_events">Emergency Events</string>
+    <string name="section_header_quick_actions">Quick Actions</string>
+    <string name="section_header_scenario_alerts">Scenario Alerts</string>
+    <string name="section_scheduling_params">Scheduling Parameters</string>
+    <string name="section_title_app_permissions">Application Permissions</string>
+    <string name="section_title_core_functionality">Core Functionality</string>
+    <string name="section_title_device_sensors">Device Sensors Status</string>
+    <string name="section_title_sms_config">SMS Configuration</string>
+
+    <!-- Sending Status -->
+    <string name="sending_last_known_location">Sending last known location...</string>
+    <string name="sending_live_location_for_5_mins">Sending live location for 5 minutes...</string>
+    <string name="send_last_known_location">Send last known location</string>
+
+    <!-- Sensors -->
+    <string name="sensor_accelerometer_name">Accelerometer</string>
+    <string name="sensor_gps_name">GPS</string>
+    <string name="sensor_gyroscope_name">Gyroscope</string>
+    <string name="sensor_status_active">Active</string>
+    <string name="sensor_status_unavailable">Unavailable</string>
+    <string name="sensors_card_info_text">\'Active\' means your device supports the feature</string>
+
+    <!-- Settings -->
+    <string name="setting_camera">Camera</string>
+    <string name="setting_duration">Duration</string>
+    <string name="setting_flash">Flash</string>
+    <string name="setting_frequency">Frequency</string>
+    <string name="setting_resolution">Resolution</string>
+    <string name="setting_start_time">Start Time</string>
+    <string name="settings_title">Settings</string>
+
+    <!-- Sharing -->
+    <string name="share_live_location">Share live location</string>
+    <string name="sim_card_default_title">Default SIM Card</string>
+    <string name="sim_card_default_value">SIM 1</string>
+    <string name="sim_card_icon_description">SIM Card</string>
+
+    <!-- Snackbar -->
+    <string name="snackbar_contacts_already_exist_or_empty">Selected contacts already exist in your list or no selection was made.</string>
+    <plurals name="snackbar_new_contacts_imported">
+        <item quantity="one">%1$d new contact imported.</item>
+        <item quantity="other">%1$d new contacts imported.</item>
+    </plurals>
+    <string name="snackbar_permission_denied">Permission denied. Cannot import contacts.</string>
+
+    <!-- SOS -->
+    <string name="sos_content_description">SOS button</string>
+    <string name="stop_sharing">Stop sharing</string>
+
+    <!-- Text Fields -->
+    <string name="text_now">Now</string>
+    <string name="textfield_label_category">Category</string>
+    <string name="textfield_label_name">Name</string>
+    <string name="textfield_label_phone_number">Phone Number</string>
+
+    <!-- Titles -->
+    <string name="title_activity_2">Activity2</string>
+    <string name="title_activity_compose_new">ComposeNewActivity</string>
+    <string name="title_activity_main01">MainActivity01</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="title_activity_new">NewActivity</string>
+    <string name="title_capture_in_progress">Capture in Progress</string>
+    <string name="title_capture_media">Capture Media</string>
+    <string name="title_capture_summary">Capture Summary</string>
+
+    <!-- Toasts -->
+    <string name="toast_audio_failed">Audio recording failed/cancelled.</string>
+    <string name="toast_audio_recorded">Audio recorded: %1$s</string>
+    <string name="toast_audio_stopped">Stopped. Saved to %1$s</string>
+    <string name="toast_audio_stop_error">Nothing to stop or error.</string>
+    <string name="toast_background_monitoring_started">Background monitoring STARTED.</string>
+    <string name="toast_background_monitoring_stopped">Background monitoring STOPPED.</string>
+    <string name="toast_car_trip_activated">Car trip scenario activated</string>
+    <string name="toast_car_trip_deactivated">Car trip scenario deactivated</string>
+    <string name="toast_fall_detection_activated">Fall detection scenario activated</string>
+    <string name="toast_fall_detection_deactivated">Fall detection scenario deactivated</string>
+    <string name="toast_front_photo_failed">Front photo failed.</string>
+    <string name="toast_front_photo_saved">Front Photo Saved: %1$s</string>
+    <string name="toast_front_video_failed">Front video failed.</string>
+    <string name="toast_front_video_saved">Front Video Saved: %1$s</string>
+    <string name="toast_not_implemented">Not implemented yet.</string>
+    <string name="toast_permission_already_granted">%1$s permissions already granted</string>
+    <string name="toast_permissions_updated">Permissions status updated.</string>
+    <string name="toast_rear_photo_failed">Rear photo failed.</string>
+    <string name="toast_rear_photo_saved">Rear Photo Saved: %1$s</string>
+    <string name="toast_rear_video_failed">Rear video failed.</string>
+    <string name="toast_rear_video_saved">Rear Video Saved: %1$s</string>
+    <string name="toast_recording_front_video">Recording front video…</string>
+    <string name="toast_recording_front_video_with_duration">Recording front video for %1$d s…</string>
+    <string name="toast_recording_rear_video">Recording rear video…</string>
+    <string name="toast_recording_rear_video_with_duration">Recording rear video for %1$d s…</string>
+    <string name="toast_taking_front_photo">Taking front photo…</string>
+    <string name="toast_taking_rear_photo">Taking rear photo…</string>
+
+    <!-- Turn On/Off -->
+    <string name="turn_off_receiver">Turn off receiver</string>
+    <string name="turn_on_message_receiver">Turn on message receiver</string>
+
+    <!-- Unlock Screen -->
+    <string name="unlock_screen_title">Unlock</string>
+
+    <!-- View Timeline -->
+    <string name="view_timeline">View timeline</string>
+    <string name="view_timeline_content_description">View location history timeline</string>
+
+    <!-- Work -->
+    <string name="work">Work</string>
+    <string name="content_description_clear_all_icon">content description clear all icon</string>
+    <string name="content_description_add_all_icon">content_description_add_all_icon</string>
+    <string name="content_description_back">content_description_back</string>
+    <string name="content_description_add_number">content_description_add_number</string>
+    <string name="content_description_remove">content_description_remove</string>
+    <string name="content_description_collapse">content_description_collapse</string>
+    <string name="content_description_expand">content_description_expand</string>
+    <string name="screen_title_alerts_monitoring">alerts monitoring</string>
+    <string name="setting_media_type">setting_media_type</string>
+    <string name="setting_capture_type">setting_capture_type</string>
+    <string name="notifications_content_description_icon">notification icon content description</string>
+    <string name="null_contacts_toast_message">contacts number are zero = 0, please add a contact</string>
+    <string name="contacts_info_text_content">messages and alert only sending for \'Emergency Contacts\'</string>
+    <string name="title_activity_wakeup_word">WakeupWordActivity</string>
+    <string name="alert_assistant_title">offline voice assistant</string>
+    <string name="alert_assistant_desc">offline voice assistant is on</string>
+    <string name="detail_sensor_microphone">Microphone</string>
+
+</resources>
